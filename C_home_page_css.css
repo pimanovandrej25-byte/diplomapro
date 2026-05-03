@@ -1,0 +1,186 @@
+body{
+    overflow-x: hidden;
+}
+.form_Block_main_informaishen b{
+    cursor:pointer; 
+}
+.button_div_js{
+    width:200px;
+    height:40px;
+    font-size:18px;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+    padding:7px 7px;
+    background-color:
+    rgb(255, 255, 255);
+    border-color:black;
+    margin-left: 920px;
+    margin-top: 385px;
+    border-width: 0 2px 2px 2px;
+}
+.button_div_js:hover{
+    background-color: black;
+    color:white;
+    border-color: rgb(228, 224, 224);
+}
+.modal_div_mail{
+    width: 200px;
+    background-color: rgb(151, 161, 170);
+}
+.form_Block_main_informaishen{
+   width: 100%;
+   z-index: 10000; 
+}
+._a_1_form_Block_main_informaishen{
+   font-size: 25px;
+   font-family:'Raleway', 'Helvetica', 'Arial', 'sans-serif';
+   color: rgb(0, 0, 0);
+   margin-left: 520px;
+   text-decoration: none;
+}
+._a_2_form_Block_main_informaishen{
+   font-size: 25px;
+   font-family:monospace;
+   color: rgb(0, 0, 0);;
+   margin-left: 60px;
+   text-decoration: none;
+}
+._a_3_form_Block_main_informaishen{
+   font-size: 25px;
+   font-family:monospace;
+   color:rgb(0, 0, 0);;
+   margin-left: 40px;
+   text-decoration: none;
+}
+._a_1_form_Block_main_informaishen:hover{
+    text-decoration: none;
+    color:rgb(27, 27, 26) ;
+    border-radius: 20px;
+}
+._a_2_form_Block_main_informaishen:hover{
+    text-decoration: none;
+    color:rgb(27, 27, 26);
+    border-radius: 20px;
+}
+._a_3_form_Block_main_informaishen:hover{
+    text-decoration: none;
+    color:rgb(27, 27, 26) ;
+    border-radius: 20px;
+}
+.form_Block_main_informaishen input{
+    width: 600px;
+    height: 50px;
+    border-radius: 20px;
+    padding-left:15px;
+    padding-right:15px;
+    font-size: 18px;
+    font-family: sans-serif;
+    border: 2px solid rgb(255, 255, 255);
+    margin-left: 30px;
+    z-index: 1000;
+}
+.form_Block_main_informaishen input:hover{
+    border-color: rgb(210, 215, 218);
+    border-color: rgb(167, 167, 167);
+    background-color: rgb(241, 241, 241); 
+}
+.form_Block_main_informaishen img{
+    width: 40px;
+    padding:9px 9px; 
+}
+.form_Block_main_informaishen {
+    position: fixed;
+    margin-left: 0px;
+    background-color: rgb(255, 255, 255,0.95);
+    margin-top: -100px;
+}
+.form_Block_main_informaishen_in{
+    width: 1800px;
+    margin:auto ;
+    padding-top: 75px;
+    padding-bottom: 20px;
+}
+.label_nomber{
+    font-family: sans-serif;
+    font-weight: 700;
+    padding-left: 100px;
+    color: rgb(0, 0, 0);
+    margin-left: -50px;
+}
+.label_nomber:hover{
+    color: rgb(0, 136, 255);
+}
+.form_Block_main{
+    width:100%;
+    height: 600px;
+    margin-top: 60px;
+    background-color: rgb(196, 197, 199);
+    position: relative;
+    z-index: 1000;
+    background-color: #171816;
+}
+.div_form_Block_main{
+    margin: 0 auto;
+    position: relative;
+    z-index: 1000px;
+}
+.label_form_Block_main_1{
+    font-size:50px;
+    font-family: sans-serif;
+    
+}
+.div_form_Block_main{
+    width: 800px;
+    margin-left: 600px;
+    padding-top: 100px;
+}
+.form_Block_main img{
+    width: 500px;
+    margin-left: 850px;
+    margin-top: -202px;
+}
+.form_diploma img{
+    width: 230px;
+    padding-left: 15%;
+    padding-top: 5%;
+}
+.text_diploma{
+    font-size: 30px;
+    padding-left: 10%;
+}
+.text_diploma_informaishen{
+    width:32%;
+    height: 35px;
+    border-radius: 20px;
+    background-color:rgb(255, 255, 255) ;
+    border-color: rgb(58, 93, 209);
+    margin-left: 10px;
+    font-size: 13px;
+    margin-top: 20px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+.text_diploma_informaishen:hover{
+    color:rgb(255, 255, 255);
+    background-color: black;
+    border:none;
+}
+.sum_and_Button{
+    width: 500px;
+    margin-top: 20px;
+    margin-left: 18px;
+}
+.Button_home_up img{
+    width: 40px;
+    padding: 10px 10px;
+}
+.grid_cards{
+  display: grid;
+  grid-template-columns: repeat(3, 4fr);
+  column-gap: 100px;
+  row-gap: 10px;
+  max-width: 1250px;
+  margin: 0 auto;
+  margin-top: -200px;
+}
+

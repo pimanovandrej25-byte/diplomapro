@@ -1,0 +1,114 @@
+.div_label_Blok_1_img{
+   width: 50px;
+   padding-top: 20px;
+   padding-left: 25px;
+}
+.div_label_Blok_1_hr{
+    width: 60%;
+    height: 2px;
+    background-color: rgb(255, 124, 2);
+    border: none;
+    margin-left: -10px;
+    margin-top: 40px;
+}
+.div_blok_informaishen_1{
+    width: 400px;
+    height: 500px;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    z-index: 1000px;
+    transition:0.8s ;
+    justify-items: center;
+    margin-left: 700PX;
+    
+}
+.div_blok_informaishen_2{
+    width: 400px;
+    height: 500px;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    z-index: 1000;
+    transition:0.8s ;
+    justify-items: center;
+    margin-left: 295PX;
+}
+.div_blok_informaishen_3{
+    width: 400px;
+    height: 500px;
+    justify-items: center;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    z-index: 1000px;
+    transition:0.8s ;
+    margin-left: -110PX;
+}
+.div_blok_informaishen_1:hover,
+.div_blok_informaishen_2:hover,
+.div_blok_informaishen_3:hover{
+    transform: scale(1.1);
+    border: 2px solid white;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px rgb(255, 255, 255);
+}
+.div_in_li_list{
+   color:rgb(255, 255, 255);
+   width: 100%;
+   font-size: 23px;
+   margin-left: 15px;
+}
+.div_in_li_list_Button{
+   width: 80%;
+   background-color: rgb(223, 137, 10);
+   height: 40px;
+   border-radius: 20px;
+   font-size: 20px;
+   font-family: Andale Mono, monospace;
+   border: none;
+   margin-left: 25px;
+   margin-top: 40px;
+   transition: 0.5s;
+}
+.div_in_li_list:hover .div_in_li_list_Button{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+}
+.div_in_li_list_Button:hover{
+   transform: translateY(-5px);
+}
+.div_in_li_list_Button_2{
+    width: 80%;
+    background-color: rgb(223, 137, 10);
+    height: 40px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: Andale Mono, monospace;
+    border: none;
+    margin-left: 25px;
+    margin-top: 70px;
+    transition: 0.5s;
+}
+.div_in_li_list:hover .div_in_li_list_Button_2{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+}
+.div_in_li_list_Button_2:hover{
+    transform: translateY(-5px);
+}
+.wrapper {
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.Button_card_1{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(223, 137, 10);
+    border:2px solid black;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family:'Raleway', 'Helvetica', 'Arial', 'sans-serif';
+    margin-top: 200px;
+}

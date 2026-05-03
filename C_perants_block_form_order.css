@@ -1,0 +1,16 @@
+.perants_block_form_order{
+    width: 2300px;
+    height: 1200px;
+    margin: auto;
+    border-radius: 20px;
+    background: linear-gradient(rgb(0,0,0,7),rgb(0,0,0,0.7));
+    padding-top: 200px;
+}
+.perants_block_form_order_on{
+    width: 1000px;
+    height: 900px;
+    background-color:rgb(255, 255, 255,0.8);
+    border-radius: 40px;
+    margin: auto;
+
+}

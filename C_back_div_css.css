@@ -1,0 +1,69 @@
+.back{ 
+    width: 100%;
+    height:700px;
+    margin: auto;
+    background-color: #161515;
+    margin-top: 100px;
+    margin-bottom: -100px;
+    position: relative;  
+}
+.gallery img:hover{
+    transform: scale(1.05);
+}
+.Googel_store{
+    margin: auto;
+
+    width: 220px;
+}
+.App_store{
+    width: 220px;
+}
+.L_1{
+    width: 20px;
+    margin-top: 90px;
+}
+.L_2,
+.L_3,
+.L_4,
+.L_5{
+    width: 20px;
+    padding-left: 0px;
+}
+.Back_on{
+    width: 600px;
+    margin: auto;
+}
+.Back_on_label_1{
+    color:rgb(255, 255, 255);
+    font-size: 70px;
+    font-family: system-ui, sans-serif;
+    padding-left: 100px;
+}
+.Back_on_label_2{
+    color:rgb(218, 212, 212);
+    font-family: system-ui, sans-serif;
+    font-size: 20px;
+    padding-left: 115px;
+}
+.back_hr_1{
+    width: 500px;
+    height: 1px;
+    border: none;
+    background-color: rgb(153, 107, 20);
+}
+.back_hr_2{
+    width: 500px;
+    height: 1px;
+    border: none;
+    background-color: rgb(153, 107, 20);
+}
+.map {
+    width: 600px;
+    height: 300px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    margin-top: -200px;
+    margin-left: 500px;
+    margin-top: -250px; 
+}

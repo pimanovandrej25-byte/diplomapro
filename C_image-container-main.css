@@ -1,0 +1,92 @@
+.image-container-main{
+    width:100%;
+    height: 990px;
+    background-color: #333;
+    z-index: 1000px;
+    position: relative;
+}
+.image-container {
+  width: 100%;
+  max-width: 2600px;
+  height: 830px;
+  border-radius: 30px;
+  margin:auto;
+  padding-top: 188px;
+  padding-bottom: 300px;
+  margin-top: -120px;
+}
+.image-container_img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.overlay_2 {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+.on-foto-label-and-button{
+    color:rgb(255, 255, 255);
+    width:1000px;
+    margin: -600px auto;
+    margin-left: 500px;
+    font-size: 40px;
+    position: relative;
+}
+.label_form_Block_main_2{
+    font-size: 20px;
+    font-family: 'Raleway', 'Helvetica', 'Arial', 'sans-serif';;
+    margin-left:0;
+    text-align: left;
+}
+.image-container_Button_Entrance{
+   width: 130px;
+   height: 60px;
+   border-radius: 20px;
+   background-color:rgb(255, 255, 255,0) ;
+   font-size: 19px;
+   color: #ffffff;
+   border:2px solid white;
+   transition: 0.6s;
+   animation: Button_2 0.9s ease;
+   cursor: pointer;
+}
+.image-container_Button_Entrance:hover{
+    transform: translateY(-5px);
+}
+@keyframes Button_2{
+    from{
+        opacity: 0;
+        transform:translateY(40px);scale:(0,9);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+.image-container_Button{
+   width: 170px;
+   height: 60px;
+   border-radius: 20px;
+   background-color:rgb(223, 137, 10) ;
+   z-index: 1000px;
+   border: none;
+   font-size: 20px;
+   position:relative;
+   cursor: pointer;
+   transition: 0.6s;
+   animation: Button 0.9s ease;
+}
+.image-container_Button:hover{
+    transform: translateY(-5px);
+}
+@keyframes Button{
+    from{
+        opacity: 0;
+        transform:translateY(40px);scale:(0,9);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}

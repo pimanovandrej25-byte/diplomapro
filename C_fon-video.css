@@ -1,0 +1,72 @@
+.fon_video{
+    width:370px;
+    height: 550px;
+    background-color: #d8d5d1;
+    border-radius: 20px;
+    margin-left: 1200px;
+    margin-top: -170px;
+}
+.label_1{
+   font-family: Andale Mono, monospace;
+   font-size: 22px;
+}
+.label_2{
+    color: #ffffff;
+    font-family: Comic Sans MS, Comic Sans, cursive ;
+    font-size: 20px;
+}
+.label_1_div{
+    width: 60%;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.label_2_div{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+.div_img_mem{
+    margin-top:-583px;
+    margin-left: 206px;
+}
+.div_fon_Black{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 1250px;
+    padding-top: 150px;
+    position: relative;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+}
+.div_label_Blok_1{
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    background-color: #d8d5d1;
+    margin-top: -300px;
+    margin-left: -800px;
+}
+.in_div_label_Blok_1{
+    width: 80%;
+    font-family:Andale Mono, monospace;
+    font-size: 25px;
+    margin-left: 38px;
+    padding-top: 30px;
+}
+.div_label_Blok_2{
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    background-color: #d8d5d1;
+    margin-left: 270px;
+    margin-top: -300px;
+}
+.div_label_Blok_foto{
+    width: 150px;
+    position: absolute;
+    margin:auto;
+    margin-top: -500px;
+    z-index: 0;
+}

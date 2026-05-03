@@ -1,0 +1,109 @@
+#informaishen_block_id{
+    background-color: #161715;
+}
+#informaishen_block_id:checked ~ .box {
+    background-color: #ffffff;
+}
+.div_informaishen_block{
+    height: 900px;
+    background-color: #161715;
+    position: relative;
+    z-index: 1000;
+}
+.div_cards_1_diploma b{
+    width: 100px;
+    color: #ffffff;
+    font-size: 30px;
+    font-family:'Raleway', 'Helvetica', 'Arial', 'sans-serif';
+}
+.div_cards_2_curs-work b{
+    width: 100px;
+    color: #ffffff;
+    font-size: 30px;
+    font-family:'Raleway', 'Helvetica', 'Arial', 'sans-serif';
+    
+}
+.div_cards_3_reherat b{
+    width: 100px;
+    color: #ffffff;
+    font-size: 30px;
+    font-family:'Raleway', 'Helvetica', 'Arial', 'sans-serif';
+}
+.div_cards_1_diploma label{
+    width: 100px;
+    color:rgb(255, 255, 255,0.6);
+    font-size: 20px;
+    font-family:'Raleway', 'Helvetica', 'Arial', 'sans-serif';
+}
+.div_cards_2_curs-work label{
+    width: 100px;
+    color:rgb(255, 255, 255,0.6);
+    font-size: 20px;
+    font-family:'Raleway', 'Helvetica', 'Arial', 'sans-serif';
+    
+}
+.div_cards_3_reherat label{
+    width: 100px;
+    color:rgb(255, 255, 255,0.6);
+    font-size: 20px;
+    font-family:'Raleway', 'Helvetica', 'Arial', 'sans-serif';
+}
+.div_cards_1_diploma_img{
+    width: 98%;
+    height: 196px;
+    border: 4px solid rgb(0, 0, 0);
+    
+}
+.div_cards_2_curs-work_img{
+    width: 98%;
+    height: 196px;
+    border: 4px solid rgb(0, 0, 0);
+   
+  
+}
+.div_cards_3_reherat_img{
+    width: 98%;
+    height: 196px;
+    border: 4px solid rgb(0, 0, 0); 
+}
+.div_cards_1_diploma_button_prais{
+    width: 100%;
+}
+.div_cards_2_curs-work_button_prais_label{
+    padding-top: 20px;
+}
+.div_cards_2_curs-work_button_prais_label{
+    padding-top: 20px;
+}
+.div_cards_3_reherat_button_prais_label{
+    padding-top: 20px;
+}
+.div_card_button_prais_button{
+    padding: 12px 12px;
+    color: #ffffff;
+    font-size: 19px;
+    font-family:'Raleway', 'Helvetica', 'Arial', 'sans-serif';
+    border-radius:4px;
+    border:1px solid white;
+    background-color: rgb(0, 0, 0,0);
+    animation: Button 0.5s ease;
+    transition: 0.6s;
+    cursor: pointer;
+}
+.div_card_button_prais_button:hover{
+    transform: translateY(-5px);
+    
+}
+@keyframes Button_2 {
+    0% {
+        opacity: 0;
+        transform: translateY(40px) scale(0.9);
+    }
+    70% {
+        transform: translateY(-5px) scale(1.05);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
