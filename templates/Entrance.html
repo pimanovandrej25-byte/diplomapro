@@ -1,11 +1,11 @@
 <head>
-  <link rel="stylesheet" href="C_entrance.css">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/C_entrance.css') }}">
 </head>
 <body>
   <div class="fon">
     <div class="entrance_Block">
 
-      <h1 class="title">Entrance on Face_pi</h1>
+      <h1 class="title">Entrance on Face_pi</h1>q
 
       <input class="input_nickname" type="text" placeholder="Nickname">
       <input class="input_password" type="password" placeholder="Password">
@@ -16,14 +16,14 @@
 
     </div>
     <div class="menu">
-      <a class="Button_home_1"  href="num_use_home_page_html.html">выйти</a>
-      <a class="Button_home_2" href="num_use_home_page_html.html" >Информация</a>
-      <a class="Button_home_3"  href="num_use_home_page_html.html">О компании</a>
+      <a class="Button_home_1"  href="/">выйти</a>
+      <a class="Button_home_2" href="/" >Информация</a>
+      <a class="Button_home_3"  href="/">О компании</a>
       <a class="Button_home_34"  href="#" onclick="showModal('contact')">Контакты</a>
       <a class="Button_home_4"  href="#" onclick="whatsApp_https()">🕿+7-913-639-82-80</a>
       <a class="Button_home_5" href="#" onclick="help_https()" >Помощь</a>
 
     </div>
-    <script src="js_home_page_java.js"></script>
+    <script src="{{ url_for('static', filename='js/HomePage.js') }}"></script>
   </div>
 </body>

@@ -2,24 +2,23 @@
 <html>
     <head>
        <title>Сайт</title>
-       <link rel="stylesheet" href="C_back_div_css.css">
-       <link rel="stylesheet" href="C_Coursewor_cards.css">
-       <link rel="stylesheet" href="C_div_informaishen_block.css">
-       <link rel="stylesheet" href="C_fon-video.css">
-       <link rel="stylesheet" href="C_form_Block_main_informaishen.css">
-       <link rel="stylesheet" href="C_home_foto_form_exsit_css.css">
-       <link rel="stylesheet" href="C_home_page_css.css">
-       <link rel="stylesheet" href="C_image-container-main.css">
+          <link rel="stylesheet" href="{{ url_for('static', filename='css/C_back_div_css.css') }}">
+          <link rel="stylesheet" href="{{ url_for('static', filename='css/C_Coursewor_cards.css') }}">
+          <link rel="stylesheet" href="{{ url_for('static', filename='css/C_div_informaishen_block.css') }}">
+          <link rel="stylesheet" href="{{ url_for('static', filename='css/C_fon-video.css') }}">
+          <link rel="stylesheet" href="{{ url_for('static', filename='css/C_form_Block_main_informaishen.css') }}">
+          <link rel="stylesheet" href="{{ url_for('static', filename='css/C_home_foto_form_exsit_css.css') }}">
+          <link rel="stylesheet" href="{{ url_for('static', filename='css/C_home_page_css.css') }}">
+          <link rel="stylesheet" href="{{ url_for('static', filename='css/C_image-container-main.css') }}">
        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body> 
-      <script src="js_home_page_java.js"></script>
-      <script src="js_home_psge_informaishen.js"></script>
-
+      <script src="{{ url_for('static', filename='js/Entrance.js') }}"></script>
+      <script src="{{ url_for('static', filename='js/HomePage.js') }}"></script>
       <form id="informaishen_block_0__id" class="form_Block_main_informaishen">
         <div class="form_Block_main_informaishen_in">
-          <div style="margin-top: 80px;margin-bottom: -95px;margin-left: 50px;"><img id="on_img" style="width: 300px;" src="ChatGPT_Image_25_апр._2026_г.__18_07_55-removebg-preview.png"></div>
-          <label id="label_1_form_Block_main_informaishen" class="_a_1_form_Block_main_informaishen">Информация</label>
+          <div style="margin-top: 80px;margin-bottom: -95px;margin-left: 50px;"><img id="on_img" style="width: 300px;" src="{{ url_for('static', filename='img/logo.png') }}"></div>
+          <label id="label_1_form_Block_main_informaishen" class="_a_1_form_Block_main_informaishen">И  нформация</label>
           <label id="label_2_form_Block_main_informaishen"  class="_a_2_form_Block_main_informaishen" href="hh.html">О компании</label>
           <label id="label_3_form_Block_main_informaishen"  class="_a_3_form_Block_main_informaishen"onclick="showModal('contact')" >Контакты</label>
           <label id="label_4_form_Block_main_informaishen"  class="label_nomber" onclick="whatsApp_https()"> 🕿+7-913-639-82-80</label>
@@ -32,7 +31,7 @@
     <div class="image-container-main">
       <div class="image-container">
 
-        <img  class="image-container_img" src="53 susbstations.jpg" alt="image">
+        <img  class="image-container_img" src="{{ url_for('static', filename='img/electric.jpg') }}" alt="image">
         <div class="overlay_2"></div>
 
         <div class="on-foto-label-and-button">
@@ -71,7 +70,7 @@
           l.style.background ="";
           l_2.style.background ="";
           l_3.style.background ="";
-          img_on.src= "ChatGPT_Image_25_апр._2026_г.__18_07_55-removebg-preview.png";
+          img_on.src= "{{ url_for('static', filename='img/logo2.png') }}";
           Label_div_0_1.style.color= "black";
           Label_div_0_2.style.color= "black";
           Label_div_0_3.style.color= "black";
@@ -92,7 +91,7 @@
           l.style.background ="black";
           l_2.style.background ="black";
           l_3.style.background ="black";
-          img_on.src= "ChatGPT Image 26 апр. 2026 г., 15_34_48.png";
+          img_on.src= "{{ url_for('static', filename='img/ChatGPT Image 26 апр. 2026 г., 15_34_48.png') }}";
           Label_div_0_1.style.color= "white";
           Label_div_0_2.style.color= "white";
           Label_div_0_3.style.color= "white";
@@ -130,7 +129,7 @@
       <div class="wrapper">
        <div style="display: grid;grid-template-columns: repeat(3,1fr);gap:40px">
         <div id="l" class="div_cards_1_diploma" style="width: 300px;height: 500px;">
-          <div class="div_cards_1_diploma_img"><img style="width: 294px;" src="ChatGPT Image 1 мая 2026 г., 14_46_13.png"></div>
+          <div class="div_cards_1_diploma_img"><img style="width: 294px;" src="{{ url_for('static', filename='img/diplom.png') }}"></div>
             <div style="width: 100%;padding-top: 20px;text-align: center;"><b>Дипломная работа</b></div>
             <div  style="width:100%;padding-top: 40px;text-align: center;"><label>Серьёзный итог обучения, оформленный по всем требованиям.</label></div>
             <div class="div_cards_1_diploma_button_prais">
@@ -141,7 +140,7 @@
             </div>
           </div>
         <div id="l_2" class="div_cards_2_curs-work" style="width: 300px;height: 500px;">
-          <div class="div_cards_2_curs-work_img"><img style="width: 294px;" src="ChatGPT Image 1 мая 2026 г., 15_03_21.png"></div>
+          <div class="div_cards_2_curs-work_img"><img style="width: 294px;" src="{{ url_for('static', filename='img/kursovia.png') }}"></div>
             <div style="width: 100%;padding-top: 20px;text-align: center;"><b>Курсовая работа</b></div>
             <div  style="width:100%;padding-top: 40px;text-align: center;"><label>Практическая работа для закрепления знаний по предмету.</label></div>
             <div class="div_cards_2_curs-work_button_prais">
@@ -152,7 +151,7 @@
             </div>
           </div>
         <div id="l_3" class="div_cards_3_reherat" style="width: 300px;height: 500px;">
-          <div class="div_cards_3_reherat_img"><img style="width: 294px;" src="ChatGPT Image 1 мая 2026 г., 15_10_25.png"></div>
+          <div class="div_cards_3_reherat_img"><img style="width: 294px;" src="{{ url_for('static', filename='img/referat.png') }}"></div>
             <div style="width: 100%;padding-top: 20px;text-align: center;"><b>реферат</b></div>
             <div style="width:100%;padding-top: 40px;text-align: center;"><label>Краткое и чёткое раскрытие темы без лишней воды.</label></div>
             <div class="div_cards_3_reherat_button_prais">
@@ -179,7 +178,7 @@
         padding-top: 130px;">
         <b id="informaishen_pai_block_id_label" style="text-align: center;font-size: 60px; font-family: 'Raleway', 'Helvetica', 'Arial', 'sans-serif';">Как оформляется заказ?</b>
         <div style="margin:0 auto; padding-top: 60px;">
-          <img style="width: 940px;height: 70px;" src="Снимок экрана 2026-04-25 105552-no-bg-preview (carve.photos).png">
+          <img style="width: 940px;height: 70px;" src="{{ url_for('static', filename='img/progress.png') }}">
           <div style="width: 100%;display:grid;grid-template-columns: repeat(4,1fr);gap: 70px;margin-left: 40px;">
             <div style="width: 200px;font-size: 23px;text-align: left;">Оформите заказ на нашем сайте</div>
             <div style="width: 200px;font-size: 23px;text-align: left;">Оформляем заказ и согласовываем все нюансы</div>
@@ -262,7 +261,7 @@
         padding-top: 100px;">
         
           <div class="div_label_Blok_foto">
-            <img src="ChatGPT_Image_19_апр._2026_г.__19_25_59-removebg-preview.png">
+            <img src="{{ url_for('static', filename='img/lozung.png') }}">
           </div>
           <div style="width: 600px;font-family: 'Raleway', 'Helvetica', 'Arial', 'sans-serif';position: relative;z-index: 30;margin-left: -700px;margin-top: 50px;">
              <b style="font-size: 40px ;">Наша компания:</b><br><br>
@@ -282,14 +281,14 @@
               </div>
           </div>
           <div class="div_label_Blok_1">
-            <img class="div_label_Blok_1_img" src="istockphoto-642626120-612x612-removebg-preview.png">
+            <img class="div_label_Blok_1_img" src="{{ url_for('static', filename='img/alert.png') }}">
             <div class="in_div_label_Blok_1"><b>Поможем разобраться, оформить и довести до идеала</b>
               <hr class="div_label_Blok_1_hr">
             </div>
           </div> 
           <div class="div_label_Blok_2">
             <div class="in_div_label_Blok_2">
-              <img style="width:60px ;padding: 10px 10px;" src="istockphoto-642626120-612x612-removebg-preview-removebg-preview.png">
+              <img style="width:60px ;padding: 10px 10px;" src="{{ url_for('static', filename='img/!.png') }}">
                 <div style="width: 90%;margin-top: 20px;margin-left: 30px;"><b style="font-family:Andale Mono, monospace;font-size: 25px;margin-left: 38px;padding-top: 30px;">✔Уникальность текста 90–100%</b></div>  
                 <div style="width: 90%;margin-top: 10px;margin-left: 30px;"><b style="font-family:Andale Mono, monospace;font-size: 25px;margin-left: 38px;padding-top: 30px;text-align: left;">✔ сопровождение до защиты</b></div><br>
                 <hr style="width: 50%;height: 2px;background-color: rgb(255, 124, 2);border: none;margin-top: 10px;">
